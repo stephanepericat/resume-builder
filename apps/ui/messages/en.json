@@ -1,0 +1,48 @@
+{
+  "certifications": {
+    "certificate": "certificate"
+  },
+  "details": {
+    "email": "Email",
+    "location": "Location",
+    "phone": "Phone Number"
+  },
+  "jobs": {
+    "contract": "Contract",
+    "current": "current",
+    "fullTime": "Full-time",
+    "remote": "Remote"
+  },
+  "languages": {
+    "proficiency": {
+      "fluent": "Fluent",
+      "native": "Native"
+    },
+    "toggle": "Toggle Language"
+  },
+  "skills": {
+    "backend": "Backend",
+    "cicd": "CI/CD",
+    "frontend": "Frontend",
+    "infra": "Infrastructure",
+    "misc": "Miscellaneous",
+    "mobile": "Mobile",
+    "testing": "Testing",
+    "tooling": "Tooling"
+  },
+  "themes": {
+    "dark": "Dark",
+    "light": "Light",
+    "system": "System",
+    "toggle": "Toggle Theme"
+  },
+  "titles": {
+    "about": "Professional Profile",
+    "certifications": "Certifications",
+    "details": "Details",
+    "education": "Education",
+    "jobs": "Employment History",
+    "languages": "Languages",
+    "skills": "Skills"
+  }
+}

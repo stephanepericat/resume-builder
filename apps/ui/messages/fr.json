@@ -1,0 +1,48 @@
+{
+  "certifications": {
+    "certificate": "certificat"
+  },
+  "details": {
+    "email": "E-mail",
+    "location": "Résidence",
+    "phone": "Numéro de Téléphone"
+  },
+  "jobs": {
+    "contract": "Intérim",
+    "current": "actuel",
+    "fullTime": "CDI",
+    "remote": "En distantiel"
+  },
+  "languages": {
+    "proficiency": {
+      "fluent": "Courant",
+      "native": "Natif"
+    },
+    "toggle": "Basculer la langue"
+  },
+  "skills": {
+    "backend": "Backend",
+    "cicd": "CI/CD",
+    "frontend": "Frontend",
+    "infra": "Infrastructure",
+    "mobile": "Mobile",
+    "misc": "Divers",
+    "testing": "Tests",
+    "tooling": "Outils"
+  },
+  "themes": {
+    "dark": "Sombre",
+    "light": "Clair",
+    "system": "Système",
+    "toggle": "Basculer le thème"
+  },
+  "titles": {
+    "about": "Profil professionnel",
+    "certifications": "Certifications",
+    "details": "Détails",
+    "education": "Formation",
+    "jobs": "Parcours professionnel",
+    "languages": "Langues",
+    "skills": "Compétences"
+  }
+}
