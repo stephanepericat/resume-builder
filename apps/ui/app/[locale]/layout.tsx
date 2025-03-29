@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react'
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
 import { ThemeProvider } from 'next-themes'
@@ -23,7 +24,7 @@ export default async function LocaleLayout({
   children,
   params,
 }: Readonly<{
-  children: React.ReactNode
+  children: ReactNode
   params: Promise<{ locale: string }>
 }>) {
   const { locale } = await params
@@ -34,6 +35,7 @@ export default async function LocaleLayout({
         className={`${fontSans.variable} ${fontTitle.variable} antialiased font-sans`}
       >
         <ThemeProvider attribute="class">
+          {/* @ts-expect-error next-intl bug */}
           <NextIntlClientProvider>{children}</NextIntlClientProvider>
         </ThemeProvider>
       </body>
